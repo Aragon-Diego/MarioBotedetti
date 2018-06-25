@@ -1,0 +1,20 @@
+{
+  "name": "npm_demo",
+  "version": "1.0.0",
+  "description": "testing of npm",
+  "main": "twitter.js",
+  "scripts": {
+    "start": "node twitter.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "twitter"
+  ],
+  "author": "Diego Aragon",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.9"
+  },
+  "devDependencies": {}
+}
