@@ -1,3 +1,4 @@
+ #coding: utf-8
 from collections import *
 from random import *
 import time
@@ -40,7 +41,7 @@ def post(stri="trainPoems2.txt"):
     order =4
     lm = train_char_lm(stri,order)
     print "esta iniciando"
-    for i in xrange(1,1000):
+    for i in xrange(1,10):
         lm =dict(Counter(lm)+Counter(train_char_lm(stri,order)))
     print "termino de aprender"
     for j in xrange(0,50):
